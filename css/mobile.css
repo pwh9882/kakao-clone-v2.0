@@ -16,7 +16,7 @@
   padding: 0px 20px;
   display: none;
 }
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 900px) {
   .bigScreen {
     display: flex;
   }
