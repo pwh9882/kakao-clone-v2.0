@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Find | Kakao Clone</title>
 
+    <link rel="stylesheet" href="css/styles.css" />
+
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
@@ -14,6 +16,7 @@
     />
   </head>
   <body>
+    <!-- 상태창 -->
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:35</span>
@@ -22,11 +25,11 @@
         <i class="fas fa-clock"></i>
         <i class="fas fa-volume-mute"></i>
         <i class="fas fa-wifi"></i>
-        <i class="fas fa-battery-full"></i>
         <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
       </div>
     </div>
-
+    <!-- 헤더 -->
     <header class="header">
       <div class="header__header-columns">
         <h1 class="header__title">Find</h1>
@@ -45,7 +48,7 @@
         </span>
       </div>
     </header>
-
+    <!-- 본문 -->
     <main class="find">
       <header class="find__header">
         <ul class="find__header-list">
@@ -79,7 +82,7 @@
         <h5 class="find__title">Recommended Friends</h5>
         <li class="find__friend friend">
           <div class="friend__column">
-            <img src="image/avatar.jpg" class="g-avatar friend-avatat" />
+            <img src="image/avatar.jpg" class="friend-avatar" />
             <div class="friend__content">
               <span class="friend__name">누군가</span>
             </div>
@@ -92,16 +95,17 @@
         </li>
       </ul>
     </main>
-
+    <!-- 네비바 -->
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__list-item">
-          <a href="frends.html" class="nav__list-link">
+          <a href="friends.html" class="nav__list-link">
             <i class="far fa-user"></i>
           </a>
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">8</div>
             <i class="far fa-comment"></i>
           </a>
         </li>
@@ -117,5 +121,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small.</span>
+    </div>
   </body>
 </html>
